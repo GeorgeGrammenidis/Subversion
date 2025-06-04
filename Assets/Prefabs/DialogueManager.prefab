@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2410761804793580246
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5873442564197192107}
+  - component: {fileID: 3110447229373887311}
+  m_Layer: 0
+  m_Name: DialogueManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5873442564197192107
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2410761804793580246}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.3000042, y: 1.0628452, z: 0.02807498}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3110447229373887311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2410761804793580246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a12ea72fb163d1e49b38f4f714ad3c36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueText: {fileID: 0}
+  dialogueBox: {fileID: 0}
+  playerController: {fileID: 0}
+  characterNameText: {fileID: 0}
+  characterImage: {fileID: 0}
+  Rosa: {fileID: 21300000, guid: d1c0cbf6839784d47be5f2abb2e396ca, type: 3}
+  Alex: {fileID: 21300000, guid: 29087480d5713d64f86b9510fdacf664, type: 3}
+  Guard: {fileID: 21300000, guid: d5eba11f22f59f64d96c34cb74b33226, type: 3}
+  Boss: {fileID: 21300000, guid: 49270ce63b6f29c4dafe10e83f6775bd, type: 3}
+  Stranger1: {fileID: 21300000, guid: 86feab7f2bf73c84ea4bb61ec8a07c16, type: 3}
+  Stranger2: {fileID: 21300000, guid: 49270ce63b6f29c4dafe10e83f6775bd, type: 3}
+  Stranger3: {fileID: 21300000, guid: b5fd6afe0ed2a4343bba2acc6dbc894c, type: 3}
+  Barman: {fileID: 21300000, guid: 6dba4fbbca3542544b139f2ebc331c18, type: 3}
+  Officer: {fileID: 21300000, guid: 1131eea6e8c6b514a9f6ca022b0bf3b6, type: 3}
+  Ego: {fileID: 21300000, guid: c788d4c3865c9e1458c33d2d544cea01, type: 3}
+  SuperEgo: {fileID: 21300000, guid: d3737c3362a4f4d4ebf095ae6f98b11d, type: 3}
+  Id: {fileID: 21300000, guid: 53a7be9d2ddf39e41a80c04912169e38, type: 3}
+  Tristan: {fileID: 21300000, guid: 01f9b69a667ff5941b49674a8f8c64f4, type: 3}
+  Paul: {fileID: 21300000, guid: c70e863acad125f4fa6057408b840f97, type: 3}
+  Coworker: {fileID: 21300000, guid: b5fd6afe0ed2a4343bba2acc6dbc894c, type: 3}
+  Jakob: {fileID: 21300000, guid: 32304739d36b8584b842d7249252e0e8, type: 3}
+  Selm: {fileID: 21300000, guid: f9e833f37ff25cd4ca39a37305e805d5, type: 3}
+  Angel: {fileID: 21300000, guid: b5fd6afe0ed2a4343bba2acc6dbc894c, type: 3}
+  Monty: {fileID: 21300000, guid: 205dfacc0829b0f409b219df78517a60, type: 3}
+  Dabrovnu: {fileID: 21300000, guid: 287d74c1e1e105f4aaf7ce8fba570388, type: 3}
+  Dresda: {fileID: 21300000, guid: 491b1f717e287bb4e8f23d89195f1a4e, type: 3}
+  Saleghdu: {fileID: 21300000, guid: f169c1423522b4f4cb1b6915082ad23e, type: 3}
+  Lexa: {fileID: 21300000, guid: 2a540c16fbbf0ab4c8234dac31fb0d15, type: 3}
+  Dragon: {fileID: 21300000, guid: ef419935d0543e246a1738efeafab1cf, type: 3}
+  Delu: {fileID: 21300000, guid: 73a247bc899c1484c9434cb7463a6192, type: 3}
+  Gladoru: {fileID: 21300000, guid: b25d9b46fe9202c4a9753b398b729d2c, type: 3}
+  Irene: {fileID: 21300000, guid: a9d94183bb8e5e846a1fadb3083c2879, type: 3}
+  Nava: {fileID: 21300000, guid: 20b73d88cea491249bdddd0df5c8402a, type: 3}
+  Isota: {fileID: 21300000, guid: 88b6d9566d952324f9a85207f315771b, type: 3}
+  Dabstra: {fileID: 21300000, guid: 287d74c1e1e105f4aaf7ce8fba570388, type: 3}
+  scene1Manager: {fileID: 0}
+  textspeed: 0.02
