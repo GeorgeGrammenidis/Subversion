@@ -1,0 +1,68 @@
+# =========================
+# Unity generated folders
+# =========================
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
+
+# =========================
+# Visual Studio / IDE files
+# =========================
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# =========================
+# OS generated files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Unity crash / cache files
+# =========================
+sysinfo.txt
+
+# =========================
+# Build outputs
+# =========================
+*.apk
+*.aab
+*.unitypackage
+
+# =========================
+# Large / optional assets (customize if needed)
+# =========================
+*.mp4
+*.mov
+*.avi
+*.psd
+*.zip
+*.rar
+
+# =========================
+# Addressables / caches
+# =========================
+[Bb]uildCache/
+[Tt]empAddressableAssetsData/
+
+# =========================
+# Unity Packages (keep Packages/manifest.json!)
+# =========================
+!Packages/manifest.json
+!Packages/packages-lock.json
